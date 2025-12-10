@@ -1,0 +1,62 @@
+# ---------------------------
+# Core Backend + API
+# ---------------------------
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# ---------------------------
+# MongoDB Database
+# ---------------------------
+pymongo
+motor
+
+# ---------------------------
+# LangChain + LangGraph
+# ---------------------------
+langchain
+langgraph
+langchain-core
+langchain-openai
+langchain-google-genai
+langchain-mistralai
+langchain-ollama
+
+# ---------------------------
+# LLM Providers
+# (Choose whichever you use)
+# ---------------------------
+openai
+google-generativeai
+mistralai
+ollama
+
+# ---------------------------
+# PDF & Resume Parsing
+# ---------------------------
+pypdf
+pdfminer.six
+pytesseract
+Pillow
+
+# ---------------------------
+# Utilities
+# ---------------------------
+numpy
+python-multipart
+requests
+
+# ---------------------------
+# For offer letter PDF generation
+# ---------------------------
+reportlab
+
+# ---------------------------
+# Optional (but recommended)
+# ---------------------------
+tqdm
+regex
+pypdf
+pdfminer.six
+python-docx
